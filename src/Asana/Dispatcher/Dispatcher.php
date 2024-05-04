@@ -5,6 +5,7 @@ namespace Asana\Dispatcher;
 use \Httpful;
 use \Httpful\Mime;
 
+#[\AllowDynamicProperties]
 class Dispatcher
 {
     public function __construct()

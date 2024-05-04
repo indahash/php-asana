@@ -4,6 +4,7 @@ namespace Asana\Errors;
 
 use Asana\Errors\RetryableAsanaError;
 
+#[\AllowDynamicProperties]
 class RateLimitEnforcedError extends RetryableAsanaError
 {
     const MESSAGE = 'Rate Limit Enforced';

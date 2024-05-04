@@ -4,6 +4,7 @@ namespace Asana\Errors;
 
 use Asana\Errors\AsanaError;
 
+#[\AllowDynamicProperties]
 class ForbiddenError extends AsanaError
 {
     const MESSAGE = 'Forbidden';

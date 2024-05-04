@@ -4,6 +4,7 @@ namespace Asana\Dispatcher;
 
 use OAuth2;
 
+#[\AllowDynamicProperties]
 class OAuthDispatcher extends Dispatcher
 {
     const NATIVE_REDIRECT_URI = 'urn:ietf:wg:oauth:2.0:oob';

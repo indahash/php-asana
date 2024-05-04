@@ -2,6 +2,7 @@
 
 namespace Asana\Resources\Gen;
 
+#[\AllowDynamicProperties]
 class UserTaskListsBase {
 
     public $client;

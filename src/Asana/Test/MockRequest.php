@@ -6,6 +6,7 @@ use Httpful;
 use Httpful\Request;
 use Httpful\Response;
 
+#[\AllowDynamicProperties]
 class MockRequest extends \Httpful\Request
 {
     public function __construct($dispatcher)

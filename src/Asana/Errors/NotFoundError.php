@@ -4,6 +4,7 @@ namespace Asana\Errors;
 
 use Asana\Errors\AsanaError;
 
+#[\AllowDynamicProperties]
 class NotFoundError extends AsanaError
 {
     const MESSAGE = 'Not Found';

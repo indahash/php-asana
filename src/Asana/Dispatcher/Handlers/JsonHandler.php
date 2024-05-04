@@ -10,6 +10,7 @@ namespace Asana\Dispatcher\Handlers;
 
 use Httpful\Handlers\MimeHandlerAdapter;
 
+#[\AllowDynamicProperties]
 class JsonHandler extends MimeHandlerAdapter
 {
     private $decode_as_array = false;

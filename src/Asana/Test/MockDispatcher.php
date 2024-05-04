@@ -5,6 +5,7 @@ namespace Asana\Test;
 use Asana\Test\MockRequest;
 use Httpful\Response;
 
+#[\AllowDynamicProperties]
 class MockDispatcher extends \Asana\Dispatcher\Dispatcher
 {
     public function __construct()

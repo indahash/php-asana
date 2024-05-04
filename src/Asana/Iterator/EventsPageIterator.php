@@ -5,6 +5,7 @@ namespace Asana\Iterator;
 use Asana\Iterator\PageIterator;
 use Asana\Errors\InvalidTokenError;
 
+#[\AllowDynamicProperties]
 class EventsPageIterator extends PageIterator
 {
     protected function getInitial()

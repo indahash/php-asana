@@ -2,6 +2,7 @@
 
 namespace Asana\Iterator;
 
+#[\AllowDynamicProperties]
 class ItemIterator implements \Iterator
 {
 

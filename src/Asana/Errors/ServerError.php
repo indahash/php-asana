@@ -4,6 +4,7 @@ namespace Asana\Errors;
 
 use Asana\Errors\RetryableAsanaError;
 
+#[\AllowDynamicProperties]
 class ServerError extends RetryableAsanaError
 {
     const MESSAGE = 'Server Error';

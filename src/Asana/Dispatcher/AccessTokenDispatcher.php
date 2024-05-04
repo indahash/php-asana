@@ -2,6 +2,7 @@
 
 namespace Asana\Dispatcher;
 
+#[\AllowDynamicProperties]
 class AccessTokenDispatcher extends Dispatcher
 {
 

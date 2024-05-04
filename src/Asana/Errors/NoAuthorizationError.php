@@ -4,6 +4,7 @@ namespace Asana\Errors;
 
 use Asana\Errors\AsanaError;
 
+#[\AllowDynamicProperties]
 class NoAuthorizationError extends AsanaError
 {
     const MESSAGE = 'No Authorization';

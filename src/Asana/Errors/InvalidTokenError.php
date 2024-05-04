@@ -4,6 +4,7 @@ namespace Asana\Errors;
 
 use Asana\Errors\AsanaError;
 
+#[\AllowDynamicProperties]
 class InvalidTokenError extends AsanaError
 {
     const MESSAGE = 'Sync token invalid or too old';

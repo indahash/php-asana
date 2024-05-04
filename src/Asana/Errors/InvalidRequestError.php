@@ -4,6 +4,7 @@ namespace Asana\Errors;
 
 use Asana\Errors\AsanaError;
 
+#[\AllowDynamicProperties]
 class InvalidRequestError extends AsanaError
 {
     const MESSAGE = 'Invalid Request';

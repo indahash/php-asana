@@ -10,6 +10,7 @@ use Asana\Errors\NotFoundError;
 use Asana\Errors\RateLimitEnforcedError;
 use Asana\Errors\ServerError;
 
+#[\AllowDynamicProperties]
 class AsanaError extends \Exception
 {
 
